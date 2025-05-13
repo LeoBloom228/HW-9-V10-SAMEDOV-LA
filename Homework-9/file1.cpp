@@ -67,7 +67,7 @@ void insertionSort(std::vector<T>& vec)
 template<typename T>
 void sortVector(std::vector<T>& vec) 
 {
-    int method = 10 % 3;  // Выбор метода сортировки
+    int method = 10 % 3;  // Selecting a sorting method
 
     switch (method) 
     {
